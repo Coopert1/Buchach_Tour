@@ -31,7 +31,7 @@ $(document).ready(function() {
         slideMargin:0,
         speed: 1000,
         auto:true,
-        pause: 15000,
+        pause: 10000,
         loop:true,
         controls: false
     });
