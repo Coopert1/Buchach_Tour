@@ -17,9 +17,7 @@ $(document).ready(function() {
         $('.search-form').toggleClass('active')
         $('.mobile-nav>ul>li').removeClass('active');
         $('.search-form>form').toggleClass('active')
-        $('body').toggleClass('no-scroll')
         if($('.bars').hasClass('active')){
-            $('body').toggleClass('no-scroll')
             $('.mobile-nav>ul>li').removeClass('active');
             $('.bars').removeClass('active')
             $('.mobile-nav').removeClass('active')
