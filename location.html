@@ -20,7 +20,7 @@
   <body>
     <div class="backdrop"></div>
     <div class="mobile-header">
-      <div class="mobile-logo"><span class="icon icon_mobile-logo"></span></div>
+      <div class="mobile-logo"><a class="icon icon_mobile-logo" href="index.html"></a></div>
       <div class="controls">
         <div class="span icon icon_search search"></div><a class="lang-switch">EN</a>
         <div class="bars">
@@ -28,6 +28,12 @@
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
+      </div>
+      <div class="search-form search-form_mobile">
+        <form>
+          <input type="text" placeholder="Введіть запит" name="search">
+          <button type="submit"></button>
+        </form>
       </div>
       <div class="mobile-nav">
         <ul>
@@ -62,6 +68,7 @@
             <ul class="submenu">
               <li><a href="#">Ресторани</a></li>
               <li><a href="#">Кав'ярні</a></li>
+              <li><a href="#">Кафе</a></li>
               <li><a href="#">Ідальні</a></li>
             </ul>
           </li>
@@ -107,7 +114,7 @@
         <nav class="main-nav"><a class="active" href="index.html">Головна</a><a href="events.html">Події</a><a href="location.html">Побачити</a><a href="food.html">Посмакувати</a><a href="food.html">Заночувати</a><a href="">Придбати</a><a href="how-to-get.html">Доїхати</a><a href="map.html">Мапа</a><a href="contacts.html">Контакти</a><span class="icon icon_search search"></span><span><a class="lang-switch">EN</a></span></nav>
       </header>
     </div>
-    <div class="search-form">
+    <div class="search-form search-form_laptop">
       <form>
         <input type="text" placeholder="Введіть запит" name="search">
         <button type="submit"></button>
@@ -118,29 +125,37 @@
         <main>
           <section>
             <div class="section-title">
-              <h1>Зелений туризм</h1>
+              <h2>Зелений туризм</h2>
             </div>
           </section>
           <section>
-            <div class="content-filter"><a href="#">Всі</a><a href="#">Архітектура</a><a href="#">Природа</a><a href="#">Активний відпочинок</a><a href="#">Тематичні мандрівки</a><a class="active" href="#">Зелений туризм</a><a href="#">Промисловий туризм</a><a href="#">Майстер-класи</a><a href="#">Оглядові маршрути</a></div>
+            <div class="content-filter"><a href="#">Усі</a><a href="#">Архітектура</a><a href="#">Природа</a><a href="#">Активний відпочинок</a><a href="#">Тематичні мандрівки</a><a class="active" href="#">Зелений туризм</a><a href="#">Промисловий туризм</a><a href="#">Майстер-класи</a><a href="#">Оглядові маршрути</a></div>
           </section>
           <section>
             <div class="location-gallery"><a data-fancybox="gallery" href="./images/pidzamochok.jpg">
                 <div class="icon icon_fullscreen"></div><img src="./images/pidzamochok.jpg" alt="banner"></a><a data-fancybox="gallery" href="./images/kostel.jpg"></a><a data-fancybox="gallery" href="./images/pidzamochok.jpg"></a><a data-fancybox="gallery" href="./images/kostel.jpg"></a></div>
+            <div class="audio">
+              <audio id="audioguide" preload="true" controls="controls">
+                <source src="./audio/sample.mp3" type="audio/mpeg">
+              </audio>
+            </div>
             <div class="row clearfix">
               <div class="col-tablet-2-3">
                 <div class="location-attribute location-attribute_cordinates">
                   <div class="location-attribute__icon"><span class="icon icon_place"></span></div>
-                  <div class="location-attribute__name">Buchach region, Rysuliv	</div>
+                  <div class="location-attribute__name">Бучацький район, с. Підзамочок	</div>
                 </div>
                 <div class="location-name">
-                  <h2>Руїни бучацького замку ХIVст.</h2>
+                  <h1>Руїни бучацького замку ХIVст.</h1>
                 </div>
                 <div class="location-description">
                   <p>The cascading waterfalls are hidden in a three-kilometer canyon amidst the dense forest. Rusyliv waterfall looks like the famous Plitvice lakes in Croatia. Although the local Fortifications of the bastion type, this architectural monument of national significance is located on a plateau on the steep left bank of the river Strypa, on the western outskirts of the village Pidzamochok. The castle was founded in 1600natural wonder is more modest in size, the waterfalls are as picturesque. If you are romantic and enjoy the extreme, this is where you should come.</p>
                   <p>Red Mountain received its name from the color of rocks aged about 400 million years old. Red mountain is one of the most picturesque places of the Dniester canyon; it captivates with the beauty and tranquility of landscapes. </p>
-                  <p>Fortifications of the bastion type, this architectural monument of national significance is located on a plateau on the steep left bank of the river Strypa, on the western outskirts of the village Pidzamochok. The castle was founded in 1600, with the assistance of the owner of the surrounding villages Jan Krzysztof Buchatskyi (Tvorovskyi), as is evidenced by the preserved inscription above the main entrance gate of the castle.</p>
-                  <p>Fortifications of the bastion type, this architectural monument of national significance is located on a plateau on the steep left bank of the river Strypa, on the western outskirts of the village Pidzamochok. The castle was founded in 1600, with the assistance of the owner of the surrounding villages Jan Krzysztof Buchatskyi (Tvorovskyi), as is evidenced by the preserved inscription above the main entrance gate of the castle.</p>
+                  <div class="location-description-more">
+                    <p>Fortifications of the bastion type, this architectural monument of national significance is located on a plateau on the steep left bank of the river Strypa, on the western outskirts of the village Pidzamochok. The castle was founded in 1600, with the assistance of the owner of the surrounding villages Jan Krzysztof Buchatskyi (Tvorovskyi), as is evidenced by the preserved inscription above the main entrance gate of the castle.</p>
+                    <p>Fortifications of the bastion type, this architectural monument of national significance is located on a plateau on the steep left bank of the river Strypa, on the western outskirts of the village Pidzamochok. The castle was founded in 1600, with the assistance of the owner of the surrounding villages Jan Krzysztof Buchatskyi (Tvorovskyi), as is evidenced by the preserved inscription above the main entrance gate of the castle.</p>
+                  </div>
+                  <div class="show-more">Показати більше</div>
                 </div>
               </div>
               <div class="col-tablet-1-3 text-center">
@@ -177,13 +192,13 @@
                 <div class="location-attribute location-attribute_outside">
                   <div class="location-attribute__icon"><span class="icon icon_money"></span></div>
                   <div class="location-attribute__name">250 грн.</div>
-                </div><a class="location-btn location-btn_see-map" href="#">Подивитись на карті</a><a class="location-btn location-btn_audio-guide" href="#">Прослухати аудіогід</a>
+                </div><a class="location-btn location-btn_see-map" href="map.html">Подивитись на карті</a><a class="location-btn location-btn_audio-guide" href="#">Прослухати аудіогід</a>
               </div>
             </div>
           </section>
           <section>
             <div class="section-title">
-              <h1>Цікаві місця поблизу</h1>
+              <h2>Цікаві місця поблизу</h2>
             </div>
             <div class="wrapper-center">
               <div class="row clearfix">

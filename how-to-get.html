@@ -20,7 +20,7 @@
   <body>
     <div class="backdrop"></div>
     <div class="mobile-header">
-      <div class="mobile-logo"><span class="icon icon_mobile-logo"></span></div>
+      <div class="mobile-logo"><a class="icon icon_mobile-logo" href="index.html"></a></div>
       <div class="controls">
         <div class="span icon icon_search search"></div><a class="lang-switch">EN</a>
         <div class="bars">
@@ -28,6 +28,12 @@
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
+      </div>
+      <div class="search-form search-form_mobile">
+        <form>
+          <input type="text" placeholder="Введіть запит" name="search"/>
+          <button type="submit"></button>
+        </form>
       </div>
       <div class="mobile-nav">
         <ul>
@@ -62,6 +68,7 @@
             <ul class="submenu">
               <li><a href="#">Ресторани</a></li>
               <li><a href="#">Кав'ярні</a></li>
+              <li><a href="#">Кафе</a></li>
               <li><a href="#">Ідальні</a></li>
             </ul>
           </li>
@@ -107,7 +114,7 @@
         <nav class="main-nav"><a class="active" href="index.html">Головна</a><a href="events.html">Події</a><a href="location.html">Побачити</a><a href="food.html">Посмакувати</a><a href="food.html">Заночувати</a><a href="">Придбати</a><a href="how-to-get.html">Доїхати</a><a href="map.html">Мапа</a><a href="contacts.html">Контакти</a><span class="icon icon_search search"></span><span><a class="lang-switch">EN</a></span></nav>
       </header>
     </div>
-    <div class="search-form">
+    <div class="search-form search-form_laptop">
       <form>
         <input type="text" placeholder="Введіть запит" name="search"/>
         <button type="submit"></button>
@@ -126,7 +133,7 @@
               <div class="icon"><span class="icon icon_car-big"></span></div>
               <div class="row clearfix">
                 <div class="col-laptop-1-5">
-                  <div class="tranport-info tranport-info_description">Власним транспортом можна доїхати трасою: M19 або E50 із Тернополя, Н02, H09 та E40 зі Львова та H1</div>
+                  <div class="transport-info transport-info_description">Власним транспортом можна доїхати трасою: M19 або E50 із Тернополя, Н02, H09 та E40 зі Львова та H1</div>
                 </div>
                 <div class="col-laptop-4-5"><img src="./images/map.png" alt="map"/></div>
               </div>
@@ -135,18 +142,18 @@
               <div class="icon"><span class="icon icon_train"></span></div>
               <div class="row clearfix">
                 <div class="col-laptop-1-5">
-                  <div class="tranport-info tranport-info_description">На жаль пасажирське залізничне сполучення з містом не функціонує. Найближчі маста з яких </div>
+                  <div class="transport-info transport-info_description">На жаль пасажирське залізничне сполучення з містом не функціонує. Найближчі маста з яких </div>
                 </div>
                 <div class="col-laptop-4-5">
                   <div class="row clearfix">
                     <div class="col-laptop-1-3">
-                      <div class="tranport-info">Залізнична станція(Івано Франківськ):
+                      <div class="transport-info">Залізнична станція(Івано Франківськ):
                         <div class="adress">площа Привокзальна 9, <br/>Івано-Франківськ, 76000</div><a href="tel:+380342593452 ">+38 (0342) 59-34-52 </a><a href="tel:+380342593834">+38 (0342) 59-38-34 </a><a href="tel:+380342592223">+38 (0342) 59-22-23</a>
                         <div class="link"><a href="https://booking.uz.gov.ua/">https://booking.uz.gov.ua/</a></div>
                       </div>
                     </div>
                     <div class="col-laptop-1-3">
-                      <div class="tranport-info">Залізнична станція (Тернопіль):
+                      <div class="transport-info">Залізнична станція (Тернопіль):
                         <div class="adress">майдан Привокзальний 1, <br/>Тернопіль, 46001</div><a href="tel:+380352472246">+38 (0352) 47-22-46</a><a href="tel:+380352471505">+38 (0352) 47-15-05 </a><a href="tel:+380352472424">+38 (0352) 47-24-24</a>
                       </div>
                     </div>
@@ -159,25 +166,25 @@
               <div class="icon"><span class="icon icon_bus"></span></div>
               <div class="row clearfix">
                 <div class="col-laptop-1-5">
-                  <div class="tranport-info tranport-info_description">Прямим автобусним рейсом в Бучач можна добратись з багатьох міст Тернопільського, Івано франківського, Львівського та Хмельницького напрямків - з Яремче, Бережан та чорткова.</div>
+                  <div class="transport-info transport-info_description">Прямим автобусним рейсом в Бучач можна добратись з багатьох міст Тернопільського, Івано франківського, Львівського та Хмельницького напрямків - з Яремче, Бережан та чорткова.</div>
                 </div>
                 <div class="col-laptop-4-5">
                   <div class="row clearfix">
                     <div class="col-laptop-1-3">
-                      <div class="tranport-info">Автобусна станція №1(Івано-Франківськ):
+                      <div class="transport-info">Автобусна станція №1(Івано-Франківськ):
                         <div class="adress">вулиця Залізнична, 30, <br/>Івано-Франківськ, 76000</div><a href="tel:+380342750830">+38 (0342) 75-08-30</a>
                       </div>
-                      <div class="tranport-info">Автобусна станція №2(Івано-Франківськ):
+                      <div class="transport-info">Автобусна станція №2(Івано-Франківськ):
                         <div class="adress">вулиця Горбачевського, 14, <br/>Івано-Франківськ, 76000</div><a href="tel:+380342583666">+38 (0342) 58-36-66</a>
                       </div>
                     </div>
                     <div class="col-laptop-1-3">
-                      <div class="tranport-info">Залізнична станція (Тернопіль):
+                      <div class="transport-info">Залізнична станція (Тернопіль):
                         <div class="adress">майдан Привокзальний 1, <br/>Тернопіль, 46001</div><a href="tel:+380352472246">+38 (0352) 47-22-46</a><a href="tel:+380352471505">+38 (0352) 47-15-05 </a><a href="tel:+380352472424">+38 (0352) 47-24-24</a>
                       </div>
                     </div>
                     <div class="col-laptop-1-3">
-                      <div class="tranport-info">Автобусна станція (Бучач):
+                      <div class="transport-info">Автобусна станція (Бучач):
                         <div class="adress">вулиця Галицька, <br/>Бучач, 48400</div>
                         <div class="phones"><a href="tel:+380354423040">+38 (03544) 2-30-40</a></div>
                       </div>
@@ -190,19 +197,19 @@
               <div class="icon"><span class="icon icon_airplane"></span></div>
               <div class="row clearfix">
                 <div class="col-laptop-1-5">
-                  <div class="tranport-info tranport-info_description">Найближчий аеропорт знаходиться у місті Івано-Франківськ за 80км. Бучача, а також за 160км. у Львові.</div>
+                  <div class="transport-info transport-info_description">Найближчий аеропорт знаходиться у місті Івано-Франківськ за 80км. Бучача, а також за 160км. у Львові.</div>
                 </div>
                 <div class="col-laptop-4-5">
                   <div class="row clearfix">
                     <div class="col-laptop-1-3">
-                      <div class="tranport-info">Аеропорт (Львів):
+                      <div class="transport-info">Аеропорт (Львів):
                         <div class="adress">вулиця Любінська, 168, <br/>Львів, Львівська область, 79040</div>
                         <div class="phones"><a href="tel:+380322298112">+38 (032) 229-81-12</a><a href="tel:+380322298216">+38 (032) 229 82 16 </a><a href="tel:+380322298073">+38 (032) 229 80 73</a></div>
                         <div class="link"><a href="https://lwo.aero/">https://lwo.aero/</a></div>
                       </div>
                     </div>
                     <div class="col-laptop-1-3">
-                      <div class="tranport-info">Аеропорт (Івано-Франківськ):
+                      <div class="transport-info">Аеропорт (Івано-Франківськ):
                         <div class="adress">вулиця Євгена Коновальця, 264А<br/>Івано-Франківськ, Івано-Франківська область, 76000 </div>
                         <div class="phones"><a href=""> +38 (0342) 72-83-48</a></div>
                         <div class="link"><a href="https://ifo.aero/">https://ifo.aero/</a></div>

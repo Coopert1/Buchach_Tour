@@ -20,7 +20,7 @@
   <body>
     <div class="backdrop"></div>
     <div class="mobile-header">
-      <div class="mobile-logo"><span class="icon icon_mobile-logo"></span></div>
+      <div class="mobile-logo"><a class="icon icon_mobile-logo" href="index.html"></a></div>
       <div class="controls">
         <div class="span icon icon_search search"></div><a class="lang-switch">EN</a>
         <div class="bars">
@@ -28,6 +28,12 @@
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
+      </div>
+      <div class="search-form search-form_mobile">
+        <form>
+          <input type="text" placeholder="Введіть запит" name="search">
+          <button type="submit"></button>
+        </form>
       </div>
       <div class="mobile-nav">
         <ul>
@@ -62,6 +68,7 @@
             <ul class="submenu">
               <li><a href="#">Ресторани</a></li>
               <li><a href="#">Кав'ярні</a></li>
+              <li><a href="#">Кафе</a></li>
               <li><a href="#">Ідальні</a></li>
             </ul>
           </li>
@@ -107,7 +114,7 @@
         <nav class="main-nav"><a class="active" href="index.html">Головна</a><a href="events.html">Події</a><a href="location.html">Побачити</a><a href="food.html">Посмакувати</a><a href="food.html">Заночувати</a><a href="">Придбати</a><a href="how-to-get.html">Доїхати</a><a href="map.html">Мапа</a><a href="contacts.html">Контакти</a><span class="icon icon_search search"></span><span><a class="lang-switch">EN</a></span></nav>
       </header>
     </div>
-    <div class="search-form">
+    <div class="search-form search-form_laptop">
       <form>
         <input type="text" placeholder="Введіть запит" name="search">
         <button type="submit"></button>
